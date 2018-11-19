@@ -1,0 +1,20 @@
+{
+    "BASE_URL" : "http://localhost:4000/api",
+    "ENDPOINTS" : {
+        "LOGIN" : "/user/login",
+        "COMPANY" :"/company",
+        "ADDRESS" : {
+            "PROVINCE" : "/address/province",
+            "CITY" : "/address/city"
+        },
+        "USER" : "/user",
+        "ROLE" : "/role",
+        "MENU" : "/menu",
+        "SIDEBAR" : "/menusidebar",
+        "ACCESS" : "/accessmenu"
+    },
+    "LS" : {
+        "USERDATA" : "B159_USERDATA_KEY",
+        "TOKEN" : "B159_TOKEN_KEY"
+    }
+}
